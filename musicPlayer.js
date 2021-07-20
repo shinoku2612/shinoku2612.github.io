@@ -63,6 +63,12 @@ export const app = {
     // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: "Bánh Mì Không",
+            singer: "Đạt G ft Du Uyên",
+            path: "./Playlist/BanhMiKhong.mp3",
+            image: "./Thumbnail/Music.png"
+        },
+        {
             name: "Kẹo Bông Gòn",
             singer: "H2K NK",
             path: "./Playlist/KeoBongGon.mp3",
