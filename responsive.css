@@ -1,0 +1,12 @@
+@media (max-width: 46.1875em) {
+    .dashboard {
+        padding: 16px;
+        max-height: 348px;
+    }
+    .cd {
+        width: 120px !important;
+    }
+    .playlist {
+        margin-top: 322px;
+    }
+}
