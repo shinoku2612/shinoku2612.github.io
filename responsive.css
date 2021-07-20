@@ -4,9 +4,22 @@
         max-height: 348px;
     }
     .cd {
-        width: 120px !important;
+        max-width: 120px;
     }
     .playlist {
         margin-top: 322px;
+    }
+    #modal {
+        width: 100%;
+        padding: 0 16px;
+    }
+    #modal .song-details .input-box {
+        width: calc(80% - 20px);
+    }
+    #modal .confirm button {
+        width: 42%;
+    }
+    .container {
+        width: 100%;
     }
 }
