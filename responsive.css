@@ -10,6 +10,9 @@
     .playlist {
         margin-top: 322px;
     }
+    .song .title {
+        font-size: 14px;
+    }
     #modal {
         width: 100%;
         padding: 0 16px;
