@@ -4,7 +4,7 @@
         max-height: 348px;
     }
     .cd {
-        max-width: 120px;
+        max-width: 120px !important;
     }
     .playlist {
         margin-top: 322px;
