@@ -6,6 +6,7 @@ const $$ = document.querySelectorAll.bind(document);
 
 const PlAYER_STORAGE_KEY = "SHIN";
 
+const dashboard = $(".dashboard");
 const player = $(".player");
 const cd = $(".cd");
 const heading = $("header h2");

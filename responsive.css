@@ -1,6 +1,7 @@
 @media (max-width: 46.1875em) {
     .dashboard {
         padding: 16px;
+        min-height: 239px;
         max-height: 348px;
     }
     .cd {
