@@ -168,13 +168,13 @@ export const app = {
 
         // Xử lý phóng to / thu nhỏ CD
         // Handles CD enlargement / reduction
-        document.onscroll = function () {
+        document.addEventListener('scroll', function () {
             const scrollTop = window.scrollY || document.documentElement.scrollTop;
             const newCdWidth = cdWidth - scrollTop;
 
             cd.style.width = newCdWidth > 0 ? newCdWidth + "px" : 0;
             cd.style.opacity = newCdWidth / cdWidth;
-        };
+        });
 
         // Xử lý khi click play
         // Handle when click play
