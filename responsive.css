@@ -7,6 +7,9 @@
     .cd {
         max-width: 120px;
     }
+    #volume {
+        display: inline-block;
+    }
     .playlist {
         margin-top: 322px;
     }

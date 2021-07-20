@@ -15,7 +15,7 @@
     /* max-width: 480px; */
     width: 480px;
     /* background: linear-gradient(180deg, #fac9d4, #dbdbdb); */
-    background: url('./Thumbnail/modal.jpg');
+    background: url('./Thumbnail/modal.jpg') top center / cover no-repeat;
     padding: 25px 30px;
     border-radius: 5px;
     border: 1px solid #ec1f55;

@@ -63,6 +63,12 @@ export const app = {
     // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
     songs: [
         {
+            name: "Kẹo Bông Gòn",
+            singer: "H2K NK",
+            path: "./Playlist/KeoBongGon.mp3",
+            image: "./Thumbnail/Music.png"
+        },
+        {
             name: "Nevada",
             singer: "Vicetone",
             path: "./Playlist/Nevada.mp3",
@@ -353,9 +359,9 @@ export const app = {
             audio.muted = true;
             audio.volume = 0;
         }
-        volumeBar.oninput = function () {
+        volumeBar.addEventListener('input', function () {
             audio.volume = volumeBar.value;
-        }
+        });
         volumeChange.onmousemove = function () {
             _this.handleVolumeBar(volumeBar);
         }
