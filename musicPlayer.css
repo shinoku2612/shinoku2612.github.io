@@ -2,11 +2,6 @@
     --primary-color: #ec1f55;
     --text-color: #333;
   }
-  @media (max-width: 46.1875em) {
-    .playlist {
-        margin-top: 95% !important;
-    }
-  }
   
   * {
     padding: 0;

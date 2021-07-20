@@ -1,4 +1,14 @@
 @media (max-width: 46.1875em) {
+    .dashboard {
+        max-height: 400px !important;
+        padding: 16px;
+    }
+    .playlist {
+        margin-top: 78% !important;
+    }
+    .cd {
+        max-width: 120px;
+    }
     .container {
         max-width: 380px;
     }
