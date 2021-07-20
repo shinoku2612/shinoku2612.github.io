@@ -14,8 +14,8 @@
 .container {
     /* max-width: 480px; */
     width: 480px;
-    background: linear-gradient(180deg, #fac9d4, #dbdbdb);
-    /* background: url('./Thumbnail/form-background.png'); */
+    /* background: linear-gradient(180deg, #fac9d4, #dbdbdb); */
+    background: url('./Thumbnail/modal.jpg');
     padding: 25px 30px;
     border-radius: 5px;
     border: 1px solid #ec1f55;
