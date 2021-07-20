@@ -1,0 +1,129 @@
+.form-body {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* display: flex; */
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    display: none;
+}
+.container {
+    /* max-width: 480px; */
+    width: 480px;
+    background: linear-gradient(180deg, #fac9d4, #dbdbdb);
+    /* background: url('./Thumbnail/form-background.png'); */
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 1px solid #ec1f55;
+}
+.container form .song-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .song-details .input-box {
+    margin-bottom: 15px;
+    width: calc(50% - 20px);
+}
+.song-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.song-details .input-box input {
+    height: 35px;
+    width: 100%;
+    outline-color: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    font-size: 16px;
+    border-bottom-width: 1.5px;
+    transition: all 0.3s ease;
+}
+.song-details .input-box input:focus,
+.song-details .input-box input:valid {
+    border-color: #ec1f55;
+    outline: none;
+}
+#file {
+    display: none;
+}
+.upload-file {
+    height: 36px;
+    margin-bottom: 15px;
+    /* margin-top: -5px; */
+}
+.upload-file label {
+    width: 90px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ec1f55;
+    color: #ec1f55;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.upload-file label:hover {
+    width: 90px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: #ec1f55;
+    color: #fff;
+    border: 1px solid #ec1f55;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+}
+.upload-file label .upload{
+    background: transparent;
+    /* margin-left: -5px; */
+    margin-top: 0;
+}
+.upload-file #file-name {
+    display: flex;
+    margin: -27px 0 0 100px;
+}
+
+form .confirm {
+    height: 35px;
+}
+form .confirm button {
+    height: 100%;
+    width: 45%;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form .confirm #btn-cancel {
+    background: #fff;
+    color: #ec1f55;
+    border: 1px solid #ec1f55;
+    margin-right: 37px;
+}
+form .confirm #btn-cancel:hover {
+    background: #dbdbdb;
+    transform: all 0.5s ease;
+}
+form .confirm #btn-ok {
+    background: #ec1f55;
+    border: 1px solid #ec1f55;
+}
+form .confirm #btn-ok:hover {
+    background: #d1053c;
+    border: 1px solid #ec1f55;
+    transform: all 0.5s ease;
+}
+    /* #ec1f55 */

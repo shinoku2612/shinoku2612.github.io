@@ -1,0 +1,13 @@
+/* OPTIONS */
+.song .option i {
+    position: relative;
+    font-size: 18px;
+}
+.song .option i:hover {
+    font-size: 20px;
+    color: black;
+}
+.song.active .option i:hover {
+    font-size: 20px;
+    color: #fff;
+}

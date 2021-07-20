@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP6 VN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/jpg" href="./Thumbnail/Zeref.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./musicPlayer.css">
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./option.css">
+</head>
+.
+
+<body>
+    <div class="form-body">
+        <form action="#" name="form-1">
+            <div class="container">
+                <form action="#" name="form-2">
+                    <div class="song-details">
+                        <div class="input-box">
+                            <span class="details">Tên bài hát</span>
+                            <input type="text" placeholder="Tên bài hát..." required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Tên ca sĩ</span>
+                            <input type="text" placeholder="Tên ca sĩ..." required>
+                        </div>
+                    </div>
+                    <div class="upload-file">
+                        <input type="file" id="file" accept="audio/*, .mp4" required>
+                        <label for="file">
+                            <div class="upload">
+                                <i class="fas fa-arrow-circle-up"></i>
+                                <span>Upload</span>
+                            </div>
+                        </label>
+                        <span id="file-name"></span>
+                    </div>
+                    <div class="confirm">
+                        <button id="btn-cancel">Hủy</button>
+                        <button id="btn-ok">Thêm</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+    </div>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Header -->
+            <header>
+                <h4>Now playing:</h4>
+                <h2>String 57th & 9th</h2>
+            </header>
+
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb"
+                    style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+                </div>
+            </div>
+
+            <!-- Control -->
+            <div class="control">
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+
+            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+            <!-- <div class="progress-bar">
+                <div class="progress-done">
+                </div>
+            </div> -->
+            <span class="volume-change">
+                <i class="fas fa-volume-up"></i> <!-- normal -->
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-volume-down"></i>
+                <input id="volume" class="volume" type="range" value="1" step="0.1" min="0" max="1">
+            </span>
+
+            <!-- Import new song into Playlist -->
+            <span class="file-upload">
+                <input type="input" id="show-form" style="display: none">
+                <label for="show-form">
+                    <div class="upload">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </label>
+            </span>
+
+            <audio id="audio" src=""></audio>
+        </div>
+
+        <!-- Import new song into Playlist -->
+        <!-- <div class="file-upload">
+            <input type="input" id="show-form" style="display: none">
+            <label for="show-form">
+                <div class="upload">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </label>
+        </div> -->
+        <!-- Playlist -->
+        <div class="playlist">
+            <div class="song">
+                <div class="thumb"
+                    style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+                </div>
+                <div class="body">
+                    <h3 class="title">Music name</h3>
+                    <p class="author">Singer</p>
+                </div>
+                <div class="option">
+                    <i class="fas fa-minus-circle"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./addSong.js"></script>
+    <script type="module" src="./musicPlayer.js"></script>
+
+    <!-- Design from: https://static.collectui.com/shots/3671744/musicloud-revolutionary-app-for-music-streaming-large -->
+</body>
+
+</html>

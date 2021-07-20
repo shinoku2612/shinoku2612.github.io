@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-body">
+        <form action="#">
+            <div class="container">
+                <form action="#">
+                    <div class="song-details">
+                        <div class="input-box">
+                            <span class="details">Tên bài hát</span>
+                            <input type="text" placeholder="Tên bài hát..." required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Tên ca sĩ</span>
+                            <input type="text" placeholder="Tên ca sĩ..." required>
+                        </div>
+                    </div>
+                    <div class="upload-file">
+                        <input type="file" id="file">
+                        <label for="file">
+                            <div class="upload">
+                                <i class="fas fa-arrow-circle-up"></i>
+                                <span>Upload</span>
+                            </div>
+                        </label>
+                        <span id="file-name"></span>
+                    </div>
+                    <div class="confirm">
+                        <button id="btn-cancel">Hủy</button>
+                        <button id="btn-ok">Thêm</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+    </div>
+    <script src="./getFileName.js"></script>
+</body>
+
+</html>
