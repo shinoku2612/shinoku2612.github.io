@@ -8,8 +8,15 @@
         max-width: 120px;
     }
     #volume {
-        display: inline-block;
+        display: inline-block !important;
+        background: linear-gradient(90deg, #ec1f55 100%, #d3d3d3 100%);
     }
+    .volume-change {
+        color: #333;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+      }
     .playlist {
         margin-top: 322px;
     }

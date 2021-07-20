@@ -360,6 +360,9 @@ export const app = {
             audio.volume = 0;
         }
         volumeBar.addEventListener('input', function () {
+            if (audio.muted) {
+                audio.muted = false;
+            }
             audio.volume = volumeBar.value;
         });
         volumeChange.onmousemove = function () {
