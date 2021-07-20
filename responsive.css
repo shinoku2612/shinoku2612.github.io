@@ -9,7 +9,12 @@
     }
     #volume {
         display: inline-block !important;
+        margin-left: 5px;
         background: linear-gradient(90deg, #ec1f55 100%, #d3d3d3 100%);
+    }
+    .volume-icon {
+        padding: 4px;
+        margin-right: -10px;
     }
     .volume-change {
         color: #333;
