@@ -1,0 +1,9 @@
+.header__user {
+    background-color: hsl(214, 89%, 95%);
+}
+.header__user:hover {
+    background-color: hsl(214, 89%, 93%);
+}
+.user__name {
+    color: hsl(214, 100%, 60%);
+}

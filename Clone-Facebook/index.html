@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/img/avatar/fb.jpg">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/javascript" src="./assets/script/header.js"></script>
+    <div class="content">
+        <div class="side-bar__left scroll-container">
+            <div class="side-bar__menu">
+                <a href="./profile.html" class="fields__item">
+                    <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                        <image href="./assets/img/avatar/Zeref.jpg" height="30" width="30" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Shin</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/friends.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Bạn bè</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/calendar.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Sự kiện</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/group_menu.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Nhóm</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/store.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Marketplace</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/video.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Watch</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/heart.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Chiến dịch gây quỹ</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/game-console.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Chơi game</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/bookmark.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Đã lưu</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/credit.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Facebook Pay</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/lated.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Gần đây nhất</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/advertising.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Hoạt động quảng cáo gần đây</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/clock.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Kỷ niệm</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/messenger.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Messenger</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/messenger_kid.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Messenger nhí</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/chart.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Quảng cáo</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/emotion_seed.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Sức khỏe cảm xúc</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/cloudy.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Thời tiết</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/flag_menu.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Trang</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/handshake.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Ứng phó khẩn cấp</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/gift.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Ưu đãi</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/mobile-game.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Video chơi game</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/live.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Video trực tiếp</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/briefcase.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Việc làm</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/star.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Yêu thích</h5>
+                    </div>
+                </a>
+                <a class="fields__item sidebar__lazy-item collapse__sidebar">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/up-arrow.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Ẩn bớt</h5>
+                    </div>
+                </a>
+                <a class="fields__item expand__sidebar">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/down-arrow.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Xem thêm</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="side-bar__shortcut">
+                <div class="shortcut__header">
+                    <h3 class="shortcut__title">
+                        Lối tắt của bạn
+                    </h3>
+                    <a href="#" class="shortcut__edit">Chỉnh sửa</a>
+                </div>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/group_menu.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Học lập trình web (F8 - Fullstack.edu.vn)</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/avatar/user6.jpg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">SKILL CLUB K20</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/avatar/user6.jpg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Sinh viên trường ĐH Sư phạm Kỹ thuật TP.HCM</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/avatar/user6.jpg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Semaphore CLB KN</h5>
+                    </div>
+                </a>
+                <a class="fields__item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/avatar/user6.jpg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">CỘNG ĐỒNG ZINGSPEED MOBILE</h5>
+                    </div>
+                </a>
+                <a class="fields__item shortcut__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/group_menu.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">CNTT K19 CLC</h5>
+                    </div>
+                </a>
+                <a class="fields__item shortcut__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/group_menu.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">CNTT K19 CLA</h5>
+                    </div>
+                </a>
+                <a class="fields__item shortcut__lazy-item">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/avatar/user6.jpg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">J2TEAM Community</h5>
+                    </div>
+                </a>
+                <a class="fields__item shortcut__lazy-item collapse__shortcut">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/up-arrow.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Ẩn bớt</h5>
+                    </div>
+                </a>
+                <a class="fields__item expand__shortcut">
+                    <svg height="40" width="40">
+                        <image href="./assets/img/svg/down-arrow.svg" height="24" width="24" x="4" y="8" />
+                    </svg>
+                    <div class="item__text fields__text">
+                        <h5 class="item__name">Xem thêm</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="side-bar__footer">
+                <a href="" class="sidebar__footer__link">Quyền riêng tư</a>
+                ‌ · ‌
+                <a href="" class="sidebar__footer__link">Điều khoản</a>
+                ‌ · ‌
+                <a href="" class="sidebar__footer__link">Quảng cáo</a>
+                ‌ · ‌
+                <a href="" class="sidebar__footer__link">
+                    Lựa chọn quảng cáo
+                </a>
+                ‌ · ‌
+                <a href="" class="sidebar__footer__link">Cookie</a>
+                ‌ · ‌
+                <a href="" class="sidebar__footer__link link__sidebar__lazy-item comple__options">
+                    Xem thêm
+                    <div class="option__complement last__link">
+                        <ul class="complement__expand" style="border: none;">
+                            <li class="complement__expand__item">
+                                <span class="complement__expand__option">Giới thiệu</span>
+                            </li>
+                            <li class="complement__expand__item">
+                                <span class="complement__expand__option">Nghề nghiệp</span>
+                            </li>
+                            <li class="complement__expand__item">
+                                <span class="complement__expand__option">Nhà phát triển</span>
+                            </li>
+                            <li class="complement__expand__item">
+                                <span class="complement__expand__option">Trợ giúp</span>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+                ‌ · ‌
+                <span class="sidebar__footer__text">Facebook © 2021</span>
+            </div>
+        </div>
+
+        <div class="content__container">
+            <div class="story">
+                <div class="story__items story__own">
+                    <img src="./assets/img/avatar/Zeref.jpg" alt="Shin" class="own__avatar">
+                    <div class="story__footer">
+                        <div class="story__btn">
+                            <i class="fal fa-plus"></i>
+                        </div>
+                        <p class="story__text">Tạo tin</p>
+                    </div>
+                </div>
+                <div class="status__expand">
+                    <i class="far fa-long-arrow-right"></i>
+                </div>
+            </div>
+            <div class="content__main">
+                <div class="content__main__items status__create">
+                    <div class="status__own">
+                        <div class="status-own__avatar"></div>
+                        <div class="own__thinking">Shin ơi, bạn đang nghĩ gì thế?</div>
+                    </div>
+                    <div class="status__options">
+                        <a class="fields__item">
+                            <svg height="40" width="34">
+                                <image href="./assets/img/svg/video-camera.svg" height="24" width="24" x="4" y="8"></image>
+                            </svg>
+                            <div class="item__text fields__text">
+                                <h5 class="item__name">Video trực tiếp</h5>
+                            </div>
+                        </a>
+                        <a class="fields__item">
+                            <svg height="40" width="34">
+                                <image href="./assets/img/svg/image.svg" height="24" width="24" x="4" y="8"></image>
+                            </svg>
+                            <div class="item__text fields__text">
+                                <h5 class="item__name">Ảnh/Video</h5>
+                            </div>
+                        </a>
+                        <a class="fields__item" style="flex: 1;">
+                            <svg height="40" width="34">
+                                <image href="./assets/img/svg/smile.svg" height="24" width="24" x="4" y="8"></image>
+                            </svg>
+                            <div class="item__text fields__text">
+                                <h5 class="item__name">Cảm xúc/Hoạt động</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="content__main__items meeting-room">
+                    <div class="meeting-room__create">
+                        <a class="fields__item">
+                            <svg height="40" width="28">
+                                <image href="./assets/img/svg/meeting.svg" height="24" width="24" x="4" y="8"></image>
+                            </svg>
+                            <div class="item__text fields__text">
+                                <h5 class="item__name">Tạo phòng họp mặt</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="meeting-room__member">
+                        <div class="room-member__avatar"></div>
+                        <div class="room-member__avatar"></div>
+                        <div class="room-member__avatar"></div>
+                        <div class="room-member__avatar"></div>
+                        <div class="room-member__avatar"></div>
+                    </div>
+                    <div class="status__expand">
+                        <i class="far fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="content__main__items status__post">
+                    Hôm sau làm tiếp phần này...
+                </div>
+            </div>
+        </div>
+
+        <div class="side-bar__right scroll-container">
+            <div class="side-bar__birthday">
+                <div class="birthday__item">
+                    <div class="birthday__header">
+                        <svg height="14" width="24">
+                            <image href="./assets/img/svg/giftbox.svg" height="14" width="14" />
+                        </svg>
+                        <div class="birthday__header-text">
+                            <h5 class="birthday__text">Sinh nhật</h5>
+                        </div>
+                        <div class="birthday__clear">
+                            <i class="birthday__clear__icon fal fa-times"></i>
+                        </div>
+                    </div>
+                    <a href="#" class="birthday__friend">
+                        Hôm nay là sinh nhật của <strong>Pikachu Sasuke</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="side-bar__friend-list">
+                <div class="friend-list__header">
+                    <h3 class="friend-list__title">Người liên hệ</h3>
+                    <div class="friend-list__icon">
+                        <div class="messenger__option__icon friend__option">
+                            <i class="fas fa-video-plus" style="color: #000;"></i>
+                        </div>
+                    </div>
+                    <div class="friend-list__icon">
+                        <div class="messenger__option__icon friend__option">
+                            <i class="fal fa-search" style="color: #000;"></i>
+                        </div>
+                    </div>
+                    <div class="friend-list__icon friend__messenger__option messenger__option">
+                        <div class="messenger__option__icon friend__option">
+                            <i class="fas fa-ellipsis-h" style="color: #000;"></i>
+                        </div>
+                        <div class="setting friend__messenger__setting messenger__setting">
+                            <div class="setting__header">
+                                <h5 class="setting__title">Cài đặt chat</h5>
+                                <p class="setting__description">Tùy chỉnh trải nghiệm trên Messenger.</p>
+                            </div>
+                            <ul class="setting__status">
+                                <li class="status__item status__mess friend__status__phone">
+                                    <i class="fal fa-phone-alt"></i>
+                                    <span class="status__option">Âm thanh cuộc gọi đến</span>
+                                    <div class="setting__toggle">
+                                        <div class="toggle__btn"></div>
+                                    </div>
+                                </li>
+                                <li class="status__item status__mess">
+                                    <i class="fal fa-volume-off"></i>
+                                    <span class="status__option">Âm thanh tin nhắn</span>
+                                    <div class="setting__toggle setting__toggle--active">
+                                        <div class="toggle__btn"></div>
+                                    </div>
+                                </li>
+                                <li class="status__item status__mess">
+                                    <i class="fal fa-comment"></i>
+                                    <span class="status__option" style="line-height: 1.8rem;">
+                                        Tin nhắn mới bật lên
+                                        <br>
+                                        <span>Tự động mở tin nhắn mới.</span>
+                                    </span>
+                                    <div class="setting__toggle setting__toggle--active">
+                                        <div class="toggle__btn"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="setting__policy">
+                                <li class="policy__item">
+                                    <i class="fal fa-adjust"></i>
+                                    <span class="policy__option">Trạng thái hoạt động</span>
+                                </li>
+                                <li class="policy__item">
+                                    <i class="fal fa-comments-alt"></i>
+                                    <span class="policy__option">Tin nhắn đang chờ</span>
+                                </li>
+                                <li class="policy__item">
+                                    <i class="fal fa-comment-alt-dots"></i>
+                                    <span class="policy__option">Cài đặt gửi tin nhắn</span>
+                                </li>
+                                <li class="policy__item">
+                                    <i class="fal fa-minus-hexagon"></i>
+                                    <span class="policy__option">Cài đặt chặn</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-list__friends friend__list">
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/pikachu.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Pikachu Sasuke</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f1.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Nguyễn Hảo</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f2.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Hướng Dương</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f3.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Huy Thịng</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f4.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Kim Xuyen</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f5.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Nguyễn Phạm Gia Huy</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f6.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Huỳnh Võ Yến Nhi</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f7.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Ánh Tuyết</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f8.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Văn Thuận</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/f9.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">Nguyễn Lan Trâm</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="friend-list__header">
+                    <h3 class="friend-list__title">Cuộc trò chuyện nhóm</h3>
+                </div>
+                <div class="friend-list__friends friend__group">
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/sTeam.jpg" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">🤡 TEAM</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/godspeed.png" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">༺God Speed༻</h5>
+                        </div>
+                    </a>
+                    <a href="#" class="fields__item friends__item">
+                        <svg height="30" width="30" style="border-radius: 50%; margin-right: 8px">
+                            <image href="./assets/img/avatar/clb-kn.png" height="30" width="30" />
+                        </svg>
+                        <div class="friends__status"></div>
+                        <div class="item__text fields__text">
+                            <h5 class="item__name">SKILL CLUB K20❤</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="expand__options expand__security">
+        <div class="expand__options__container">
+            <div class="expand__options__header">
+                <div class="expand__back" style="position: unset;">
+                    <i class="back__icon far fa-long-arrow-left" style="opacity: 1;position: relative;top: 10px;"></i>
+                </div>
+                <h3 class="expand__header">Cài đặt & quyền riêng tư</h3>
+            </div>
+            <div class="expand__options__body">
+                <div class="expand__fields">
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Cài đặt</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-user-lock"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Kiểm tra quyền riêng tư</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-lock-alt"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Lối tắt quyền riêng tư</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-ballot"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Nhật ký hoạt động</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="far fa-tablet-android-alt"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Tùy chọn Bảng tin</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="far fa-globe"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Ngôn ngữ</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="expand__options expand__help">
+        <div class="expand__options__container">
+            <div class="expand__options__header">
+                <div class="expand__back" style="position: unset;">
+                    <i class="back__icon far fa-long-arrow-left" style="opacity: 1;position: relative;top: 10px;"></i>
+                </div>
+                <h3 class="expand__header">Trợ giúp & hỗ trợ</h3>
+            </div>
+            <div class="expand__options__body">
+                <div class="expand__fields">
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Trung tâm trợ giúp</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Hộp thư hỗ trợ</h5>
+                        </div>
+                    </a>
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-exclamation-square"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Báo cáo sự cố</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="expand__options expand__access">
+        <div class="expand__options__container">
+            <div class="expand__options__header">
+                <div class="expand__back" style="position: unset;">
+                    <i class="back__icon far fa-long-arrow-left" style="opacity: 1;position: relative;top: 10px;"></i>
+                </div>
+                <h3 class="expand__header">Màn hình & trợ năng</h3>
+            </div>
+            <div class="expand__options__body">
+                <div class="expand__fields">
+                    <div class="fields__item__icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="expand__item__access">
+                        <div class="item__text fields__text__access">
+                            <h5 class="expand__item__name">Chế độ tối</h5>
+                            <span class="fields__description">Điều chỉnh giao diện của Facebook để giảm độ chói và cho
+                                đôi mắt được nghỉ ngơi</span>
+                        </div>
+                        <div class="expand__item__selector">
+                            <span class="selector__details">Tắt</span>
+                            <label class="expand__input--radio">
+                                <input type="radio" name="expand__item__darkmode" checked>
+                                <span class="radio__label"></span>
+                            </label>
+                        </div>
+                        <div class="expand__item__selector">
+                            <span class="selector__details">Bật</span>
+                            <label class="expand__input--radio">
+                                <input class="darkmode--active" type="radio" name="expand__item__darkmode">
+                                <span class="radio__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="expand__fields">
+                    <div class="fields__item__icon">
+                        <i class="far fa-compress-arrows-alt"></i>
+                    </div>
+                    <div class="expand__item__access">
+                        <div class="item__text fields__text__access">
+                            <h5 class="expand__item__name">Chế độ thu gọn</h5>
+                            <span class="fields__description">Làm giảm kích thước phông chữ để có thêm nội dung vừa với
+                                màn hình.</span>
+                        </div>
+                        <div class="expand__item__selector">
+                            <span class="selector__details">Tắt</span>
+                            <label class="expand__input--radio">
+                                <input type="radio" name="expand__item__collapse" checked>
+                                <span class="radio__label"></span>
+                            </label>
+                        </div>
+                        <div class="expand__item__selector">
+                            <span class="selector__details">Bật</span>
+                            <label class="expand__input--radio">
+                                <input type="radio" name="expand__item__collapse">
+                                <span class="radio__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="expand__fields expand__open__keyboard" style="padding: 8px 0;">
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Bàn phím</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="expand__options expand__keyboard">
+        <div class="expand__options__container">
+            <div class="expand__options__header">
+                <div class="keyboard__back" style="position: unset;">
+                    <i class="back__icon far fa-long-arrow-left" style="opacity: 1;position: relative;top: 10px;"></i>
+                </div>
+                <h3 class="expand__header">Bàn phím</h3>
+            </div>
+            <div class="expand__options__body">
+                <div class="expand__fields" style="padding: 8px 0">
+                    <a class="expand__item">
+                        <div class="fields__item__icon">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <div class="item__text fields__text">
+                            <h5 class="expand__item__name">Xem tất cả phím tắt</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="expand__fields">
+                    <div class="fields__item__icon" style="transform: rotate(180deg);">
+                        <i class="fad fa-star-shooting"></i>
+                    </div>
+                    <div class="expand__item__access">
+                        <div class="item__text fields__text__access">
+                            <h5 class="expand__item__name">Dùng phím tắt có một ký tự</h5>
+                            <span class="fields__description">Dùng lối tắt có một ký tự để thực hiện hành động phổ
+                                biến.</span>
+                        </div>
+                        <div class="expand__item__selector">
+                            <span class="selector__details">Tắt</span>
+                            <label class="expand__input--radio">
+                                <input type="radio" name="expand__item__shortcut" checked>
+                                <span class="radio__label"></span>
+                            </label>
+                        </div>
+                        <div class="expand__item__selector">
+                            <span class="selector__details">Bật</span>
+                            <label class="expand__input--radio">
+                                <input type="radio" name="expand__item__shortcut">
+                                <span class="radio__label"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/script/modal.js"></script>
+    <script type="text/javascript" src="./assets/script/main.js"></script>
+</body>
+
+</html>
