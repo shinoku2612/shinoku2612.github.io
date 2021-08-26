@@ -40,7 +40,7 @@ headerSearch.innerHTML = `
     <ul class="search__box__history">
         <li class="search__box__target">
             <a href="#" class="target__wall">
-                <img src="../../assets/img/avatar/zsm.jpg" alt="Target Avatar" class="target__avatar">
+                <img src="./assets/img/avatar/zsm.jpg" alt="Target Avatar" class="target__avatar">
                 <span class="target__name">ZingSpeed Mobile</span>
             </a>
             <div class="history__clear">
@@ -49,7 +49,7 @@ headerSearch.innerHTML = `
         </li>
         <li class="search__box__target">
             <a href="#" class="target__wall">
-                <img src="../../assets/img/avatar/clb-kn.png" alt="Target Avatar" class="target__avatar">
+                <img src="./assets/img/avatar/clb-kn.png" alt="Target Avatar" class="target__avatar">
                 <span class="target__name">CLB Kỹ Năng - ĐH Sư Phạm Kỹ Thuật TP.HCM</span>
             </a>
             <div class="history__clear">
@@ -123,7 +123,7 @@ headerUser.classList.add("header__user");
 const userName = "Shin";
 const userAvatar = "Zeref.jpg";
 headerUser.innerHTML = `
-<a href="./assets/profile.html" class="user__wall">
+<a href="../../profile.html" class="user__wall">
     <img src="../../assets/img/avatar/${userAvatar}" alt="User Avatar" class="user__avatar">
     <span class="user__name">${userName}</span>
 </a>
