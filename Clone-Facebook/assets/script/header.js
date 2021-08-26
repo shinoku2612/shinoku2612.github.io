@@ -7,7 +7,7 @@ headerHome.classList.add("header__home");
 const headerLogo = document.createElement("div");
 headerLogo.classList.add("header__logo");
 headerLogo.innerHTML = `
-<a href="../../index.html" class="go-back-home">
+<a href="./index.html" class="go-back-home">
 <svg height="40" width="40">
     <defs>
         <linearGradient id="grad1" x1="50%" x2="50%" y1="97.0782153%" y2="0%">
@@ -102,7 +102,7 @@ const navItemActive = [
     "", "", "", ""
 ];
 const targets = [
-    "../../index.html",
+    "./index.html",
     "#", "#", "#", "#"
 ];
 
@@ -123,8 +123,8 @@ headerUser.classList.add("header__user");
 const userName = "Shin";
 const userAvatar = "Zeref.jpg";
 headerUser.innerHTML = `
-<a href="../../profile.html" class="user__wall">
-    <img src="../../assets/img/avatar/${userAvatar}" alt="User Avatar" class="user__avatar">
+<a href="./profile.html" class="user__wall">
+    <img src="./assets/img/avatar/${userAvatar}" alt="User Avatar" class="user__avatar">
     <span class="user__name">${userName}</span>
 </a>
 `;
@@ -1150,7 +1150,7 @@ headerOption.innerHTML = `
         <div class="complementary__area__container scroll-container">
             <div class="complementary__area__body">
                 <div class="complementary__fields">
-                    <a href="../../profile.html" class="complementary__item">
+                    <a href="./profile.html" class="complementary__item">
                         <img src="./assets/img/avatar/Zeref.jpg"
                             class="complementary__item__image"></img>
                         <div class="item__text complementary__text">
