@@ -68,32 +68,32 @@ headerNavBox.classList.add("nav__box");
 const headerNavItems = [
     `
     <svg height="24" width="24">
-        <image href="../../assets/img/svg/home.svg" height="24" width="24" />
-        <image href="../../assets/img/svg/home-active.svg" height="24" width="24" />
+        <image href="./assets/img/svg/home.svg" height="24" width="24" />
+        <image href="./assets/img/svg/home-active.svg" height="24" width="24" />
     </svg>
     `,
     `
     <svg height="24" width="24">
-        <image href="../../assets/img/svg/flag.svg" height="24" width="24" />
-        <image href="../../assets/img/svg/flag-active.svg" height="24" width="24" />
+        <image href="./assets/img/svg/flag.svg" height="24" width="24" />
+        <image href="./assets/img/svg/flag-active.svg" height="24" width="24" />
     </svg>
     `,
     `
     <svg height="24" width="24">
-        <image href="../../assets/img/svg/watch.svg" height="24" width="24" />
-        <image href="../../assets/img/svg/watch-active.svg" height="24" width="24" />
+        <image href="./assets/img/svg/watch.svg" height="24" width="24" />
+        <image href="./assets/img/svg/watch-active.svg" height="24" width="24" />
     </svg>
     `,
     `
     <svg height="24" width="24">
-        <image href="../../assets/img/svg/market.svg" height="24" width="24" />
-        <image href="../../assets/img/svg/market-active.svg" height="24" width="24" />
+        <image href="./assets/img/svg/market.svg" height="24" width="24" />
+        <image href="./assets/img/svg/market-active.svg" height="24" width="24" />
     </svg>
     `,
     `
     <svg height="24" width="24">
-        <image href="../../assets/img/svg/group.svg" height="24" width="24" />
-        <image href="../../assets/img/svg/group-active.svg" height="24" width="24" />
+        <image href="./assets/img/svg/group.svg" height="24" width="24" />
+        <image href="./assets/img/svg/group-active.svg" height="24" width="24" />
     </svg>
     `
 ];
@@ -123,7 +123,7 @@ headerUser.classList.add("header__user");
 const userName = "Shin";
 const userAvatar = "Zeref.jpg";
 headerUser.innerHTML = `
-<a href="../../assets/profile.html" class="user__wall">
+<a href="./assets/profile.html" class="user__wall">
     <img src="../../assets/img/avatar/${userAvatar}" alt="User Avatar" class="user__avatar">
     <span class="user__name">${userName}</span>
 </a>
@@ -151,7 +151,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Xã hội</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/calendar.svg" height="30" width="30"
+                                <image href="./assets/img/svg/calendar.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -163,7 +163,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/friends.svg" height="30" width="30"
+                                <image href="./assets/img/svg/friends.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -174,7 +174,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/group_menu.svg" height="30" width="30"
+                                <image href="./assets/img/svg/group_menu.svg" height="30" width="30"
                                     x="8" y="10" />
                             </svg>
                             <div class="item__text fields__text">
@@ -185,7 +185,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/newspaper.svg" height="30" width="30"
+                                <image href="./assets/img/svg/newspaper.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -196,7 +196,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/flag_menu.svg" height="30" width="30"
+                                <image href="./assets/img/svg/flag_menu.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -210,7 +210,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Giải trí</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/mobile-game.svg" height="30" width="30"
+                                <image href="./assets/img/svg/mobile-game.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -221,7 +221,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/game-console.svg" height="30" width="30"
+                                <image href="./assets/img/svg/game-console.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -231,7 +231,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/video.svg" height="30" width="30" x="8"
+                                <image href="./assets/img/svg/video.svg" height="30" width="30" x="8"
                                     y="10" />
                             </svg>
                             <div class="item__text fields__text">
@@ -245,7 +245,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Mua sắm</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/credit.svg" height="30" width="30"
+                                <image href="./assets/img/svg/credit.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -256,7 +256,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/store.svg" height="30" width="30" x="4" />
+                                <image href="./assets/img/svg/store.svg" height="30" width="30" x="4" />
                             </svg>
                             <div class="item__text fields__text">
                                 <h5 class="item__name">Marketplace</h5>
@@ -266,7 +266,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/gift.svg" height="30" width="30" x="8"
+                                <image href="./assets/img/svg/gift.svg" height="30" width="30" x="8"
                                     y="10" />
                             </svg>
                             <div class="item__text fields__text">
@@ -280,7 +280,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Cá nhân</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/advertising.svg" height="30" width="30"
+                                <image href="./assets/img/svg/advertising.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -291,7 +291,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/clock.svg" height="30" width="30" x="4" />
+                                <image href="./assets/img/svg/clock.svg" height="30" width="30" x="4" />
                             </svg>
                             <div class="item__text fields__text">
                                 <h5 class="item__name">Kỷ niệm</h5>
@@ -301,7 +301,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/bookmark.svg" height="30" width="30" x="8"
+                                <image href="./assets/img/svg/bookmark.svg" height="30" width="30" x="8"
                                     y="10" />
                             </svg>
                             <div class="item__text fields__text">
@@ -312,7 +312,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/cloudy.svg" height="30" width="30" x="8"
+                                <image href="./assets/img/svg/cloudy.svg" height="30" width="30" x="8"
                                     y="10" />
                             </svg>
                             <div class="item__text fields__text">
@@ -327,7 +327,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Chuyên nghiệp</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/chart.svg" height="30" width="30" x="4" />
+                                <image href="./assets/img/svg/chart.svg" height="30" width="30" x="4" />
                             </svg>
                             <div class="item__text fields__text">
                                 <h5 class="item__name">Quảng cáo</h5>
@@ -337,7 +337,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/briefcase.svg" height="30" width="30"
+                                <image href="./assets/img/svg/briefcase.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -350,7 +350,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Nguồn lực cho cộng đồng</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/handshake.svg" height="30" width="30"
+                                <image href="./assets/img/svg/handshake.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -361,7 +361,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/heart.svg" height="30" width="30" x="4" />
+                                <image href="./assets/img/svg/heart.svg" height="30" width="30" x="4" />
                             </svg>
                             <div class="item__text fields__text">
                                 <h5 class="item__name">Chiến dịch gây quỹ</h5>
@@ -374,7 +374,7 @@ headerOption.innerHTML = `
                         <h5 class="fields__name">Sản phẩm khác của Facebook</h5>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/messenger.svg" height="30" width="30"
+                                <image href="./assets/img/svg/messenger.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
@@ -385,7 +385,7 @@ headerOption.innerHTML = `
                         </a>
                         <a class="fields__item">
                             <svg height="50" width="50">
-                                <image href="../../assets/img/svg/messenger_kid.svg" height="30" width="30"
+                                <image href="./assets/img/svg/messenger_kid.svg" height="30" width="30"
                                     x="4" />
                             </svg>
                             <div class="item__text fields__text">
