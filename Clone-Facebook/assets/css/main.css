@@ -675,7 +675,7 @@ html {
     /* top: calc(100% + 16px); */
     right: -32px;
     padding: 16px 8px 8px;
-    width: 24vw;
+    width: 20vw;
     max-height: 46vh;
     background-color: var(--header-color);
     border-radius: 8px;
